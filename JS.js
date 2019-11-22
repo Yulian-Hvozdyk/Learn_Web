@@ -1,12 +1,15 @@
-let dataOfUser;
+
 
 function showMessage () {
-    dataOfUser = alert(document.getElementById('message').value);
+    alert(document.getElementById('message').value);
+    if (message == "") {
+        alert("Введите ваш текст")
+    }
 }
 /* Выводит значение полученное из input введенное пользователем*/
 
 function delText () {
     alert("Очищать input с надписью");
-    var element = dataOfUser;
-    element.innerHTML;
+    message.value = "";
 }
+// Удаляет с input введенные элементы
