@@ -1,8 +1,9 @@
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
 }
 
-#button-1{
-    font-size: 50px;
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
 }

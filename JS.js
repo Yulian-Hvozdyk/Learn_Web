@@ -6,7 +6,7 @@ function showMessage () {
 /* Выводит значение полученное из input введенное пользователем*/
 
 function delText () {
-    alert("Очищать input с надписью");
+    alert("Проходит очистка в input с надписью");
     message.value = "";
 }
 // Удаляет с input введенные элементы
