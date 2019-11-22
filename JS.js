@@ -1,3 +1,3 @@
-function showMessage (button) {
-    alert("Вы ввели:" + Text.Your_message);
+function showMessage () {
+    alert(document.getElementById('message').value);
 }
