@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 100px;
+    font-size: 80px;
     color: green;
 }
 
@@ -12,3 +12,7 @@ p {
 body { font-size: 18pt;}
         
 button { font-size: 20pt;}
+
+.TMPOJS { text-align: center;}
+
+.button_link { text-align: right;}
