@@ -2,12 +2,16 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
 
-}
+}  
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
 }
+
+body { font-size: 18pt;}
+        
+button { font-size: 20pt;}
 
 .red {
     color: red;
