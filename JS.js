@@ -2,13 +2,13 @@
 /* Кнопка "Вывести на экран", выводит значение полученное из input введенное пользователем*/
 
 function showMessage () {
-    alert(document.getElementById('message').value);
+    alert(document.getElementById('textOfUser').value);
 }
 
 // Кнопка "Очистить поле", удаляет с input введенные элементы
 function delText () {
     alert("Проходит очистка в input с надписью");
-    message.value = "";
+    textOfUser.value = "";
 }
 
 // Кнопка "Рандомное число" генерирует рандомное число со второго input и выводит на экран
