@@ -1,3 +1,7 @@
+body { 
+    font-size: 18pt;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
@@ -9,10 +13,15 @@ p {
     font-size: 100px;
 }
         
-body { font-size: 18pt;}
-        
-button { font-size: 20pt;}
 
-.TMPOJS { text-align: center;}
+button { 
+    font-size: 20pt;
+}
 
-.button_link { text-align: right;}
+.TMPOJS { 
+    text-align: center;
+}
+
+.button_link { 
+    text-align: right;
+}

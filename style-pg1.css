@@ -1,3 +1,7 @@
+body { 
+    font-size: 18pt;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
@@ -9,13 +13,17 @@ p {
     font-size: 100px;
 }
 
-body { font-size: 18pt;}
-        
-button { font-size: 20pt;}
+button { 
+    font-size: 20pt;
+}
 
-.Hello_World { text-align: center;}
+.Hello_World { 
+    text-align: center;
+}
 
-.js_button { text-align: center;}
+.js_button { 
+    text-align: center;
+}
 
 .red {
     color: red;
