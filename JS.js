@@ -16,28 +16,30 @@ function delText (qwerty) {
 //////////////////////////////////////////////////////////////////////////////////////////////
 // ФУНКЦИИ РАНДОМА
 // Кнопка "Рандомное число" генерирует рандомное число со второго input и выводит на экран
-function showRandomNum () {
-    let ourNumber = document.getElementById('randomNum').value;
-    let randomNumber = Math.random() * ourNumber;
-    if (!isNaN(randomNumber)) {
-        alert(Math.floor(randomNumber));
-    } else {
-        alert("Это не число!");
-    }
-    delText(randomNum);
-}
-
-
-// function showRandomNum(min = 0, max) {
-//     max = document.getElementById('randomNum').value;
-//     randomNumber = createRandomNum(min, max);
-//    if (!isNaN(max)) {
+// Условие в данное функции было исправлено и было добавлено функция delText 
+// function showRandomNum () {
+//     let ourNumber = document.getElementById('randomNum').value;
+//     let randomNumber = Math.random() * ourNumber;
+//     if (!isNaN(randomNumber)) {
 //         alert(Math.floor(randomNumber));
 //     } else {
 //         alert("Это не число!");
-//     }   
+//     }
 //     delText(randomNum);
-// }   
+// }
+////////////////////////////////////////////////////////////////////////
+// Кнопка "Рандомное число" генерирует рандомное число со второго input и выводит на экран
+
+function showRandomNum(min = 0, max) {
+    max = document.getElementById('randomNum').value;
+    randomNumber = createRandomNum(min, max);
+   if (!isNaN(max)) {
+        alert(Math.floor(randomNumber));
+    } else {
+        alert("Это не число!");
+    }   
+    delText(randomNum);
+}   
 
 //Отдельная функция генерации числа
 
@@ -46,4 +48,5 @@ function createRandomNum(min, max) {
     return randomNumber;
     }
 
+////////////////////////////////////////////////////////////////////////////////////////    
                      
