@@ -25,3 +25,8 @@ button {
 .button_link { 
     text-align: right;
 }
+
+.My_photo {
+    height: 200px;
+    width: auto;
+}
