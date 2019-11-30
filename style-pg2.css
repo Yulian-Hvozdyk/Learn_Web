@@ -26,12 +26,11 @@ button {
     text-align: right;
 }
             
-.My_photo {
-    height: 200px;
-    width: auto;
+.element_photo {
+    text-align: center;
 }
 
-.Left_side {
+/* .Left_side {
     float: left;
     text-align: left;
 }
@@ -44,4 +43,4 @@ button {
 .Right_side {
     float: right;
     text-align: right;
-}
+} */

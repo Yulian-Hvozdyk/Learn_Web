@@ -55,7 +55,7 @@ let myPhoto = document.getElementByI('My_photo').value;
 
 
 function moveToLeft() {
-    let toLeft = document.getElementById('.Left_sid').value;
+    let toLeft = document.getElementById('.Left_side').value;
     myPhoto == toLeft;
 
 }
