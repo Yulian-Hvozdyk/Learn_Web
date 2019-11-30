@@ -48,5 +48,24 @@ function createRandomNum(min, max) {
     return randomNumber;
     }
 
-////////////////////////////////////////////////////////////////////////////////////////    
-                     
+/////////////////////////////////////////////////////////////////////////////////////////////////    
+//Функции перемещения фотографии 
+
+let myPhoto = document.getElementByI('My_photo').value;
+
+
+function moveToLeft() {
+    let toLeft = document.getElementById('.Left_sid').value;
+    myPhoto == toLeft;
+
+}
+
+function moveToCenter() {
+    let toCenter = document.getElementById('.Middle').value;
+    myPhoto == toCenter;
+}
+
+function moveToRight() { 
+    let toRight = document.getElementById('.Right_side').value;  
+    myPhoto == toRight;
+}   

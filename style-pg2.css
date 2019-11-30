@@ -25,8 +25,23 @@ button {
 .button_link { 
     text-align: right;
 }
-
+            
 .My_photo {
     height: 200px;
     width: auto;
+}
+
+.Left_side {
+    float: left;
+    text-align: left;
+}
+
+.Middle {
+    float: center;
+    text-align: center;
+}
+
+.Right_side {
+    float: right;
+    text-align: right;
 }
