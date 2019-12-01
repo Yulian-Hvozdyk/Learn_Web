@@ -50,22 +50,19 @@ function createRandomNum(min, max) {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////    
 //Функции перемещения фотографии 
+let myPhoto = document.getElementsByClassName('My_photo').value;
 
-let myPhoto = document.getElementByI('My_photo').value;
-
-
+let photo_1 = document.getElementById('move_left').value
+let photo_left = document.getElementsByClassName('.My_photo').value
+let action = photo_left = photo_1;
 function moveToLeft() {
-    let toLeft = document.getElementById('.Left_side').value;
-    myPhoto == toLeft;
-
+    action;
 }
 
 function moveToCenter() {
-    let toCenter = document.getElementById('.Middle').value;
-    myPhoto == toCenter;
+
 }
 
-function moveToRight() { 
-    let toRight = document.getElementById('.Right_side').value;  
-    myPhoto == toRight;
-}   
+function moveToRight() {
+
+}

@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <link href="style-pg2.css" rel="stylesheet">
-    
+    <link href="style-pg2.css" rel="stylesheet" type="text/css">
     <script src="JS.js"></script>
-    
+  
     <title>Web_Development</title>
 </head>
 
@@ -31,16 +30,17 @@
         <br>
             <input type="text" id="randomNum">
             <button onclick="showRandomNum()">Вывести рандомное число</button>
+        <br>
+        <br>    
     
-    <div id="element_photo" height="200px" width="auto" > <img src="IMG_1779.jpg" alt="Фото Топ Программиста!" id="My_photo">
-
-        <!-- <br>
-            <input type="button" value="Left" id="Left_side">
-
-            <input type="button" value="Center" id="Middle">
-
-            <input type="button" value="Right" id="Right_side">
-           -->
-    </div>          
+    <div>
+        <img src="IMG_1779.jpg" alt="Фото молодого хлопчика!" class="My_photo">
+    </div>
+    
+    <button onclick="moveToLeft()" id="move_left">toLeft</button>
+    <button onclick="moveToCenter()">toCente</button>
+    <button onclick="moveToRight()">toRight</button>
+    
+                    
 </body>
 </html> 

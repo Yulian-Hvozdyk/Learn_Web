@@ -25,22 +25,14 @@ button {
 .button_link { 
     text-align: right;
 }
-            
-.element_photo {
-    text-align: center;
-}
-
-/* .Left_side {
+        
+.My_photo {
+    height: 200px;
+    width: auto;
     float: left;
-    text-align: left;
 }
-
-.Middle {
-    float: center;
-    text-align: center;
-}
-
-.Right_side {
+.My_photo {
     float: right;
-    text-align: right;
-} */
+}
+
+
