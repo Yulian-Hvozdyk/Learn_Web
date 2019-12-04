@@ -29,11 +29,13 @@ button {
 .My_photo {
     height: 400px;
     width: auto;
+    position: relative;
 }
 
 #photo {
     height: 400px;
     width: auto;
+    position: relative;
 }
 
 
