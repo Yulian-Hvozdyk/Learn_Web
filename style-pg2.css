@@ -29,10 +29,11 @@ button {
 .My_photo {
     height: 200px;
     width: auto;
-    float: left;
 }
-.My_photo {
-    float: right;
+
+#photo {
+    height: 200px;
+    width: auto;
 }
 
 
