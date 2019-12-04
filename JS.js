@@ -65,3 +65,37 @@ function moveToRight() {
     console.log(document.getElementById('photo'));
     document.getElementById('photo').style.textAlign = 'right';
 }
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Функции изменения параметров фотографии
+
+
+//1 - высота равна высоте фотографии внутри
+function minHeight() {
+    console.log(document.getElementById('photo'))
+    document.getElementById('photo').style.height = "400px";
+}
+//2 - высота равна 1.5 от фотографии
+function averageHeight() {
+    console.log(document.getElementById('photo'))
+    document.getElementById('photo').style.height = "600px";
+}
+//3 - высота в два раза больше фотографии
+function maxHeight() {
+    console.log(document.getElementById('photo'))
+    document.getElementById('photo').style.height = "800px";
+}
+//4 - ширина равна ширине фотографии
+function minWidth() {
+    console.log(document.getElementById('photo'))
+    document.getElementById('photo').style.width = "400px";
+}
+//5 - ширина равна половине ширины экрана
+function averageWidth() {
+    console.log(document.getElementById('photo'))
+    document.getElementById('photo').style.width = "50%";
+}
+//6 - весь экран
+function maxWidth() {
+    console.log(document.getElementById('photo'))
+    document.getElementById('photo').style.width = "auto";
+}
